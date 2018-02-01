@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5AC07E2022B91500CFC1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC07D2022B91500CFC1CC /* AppDelegate.m */; };
+		CD5AC0812022B91500CFC1CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC0802022B91500CFC1CC /* ViewController.m */; };
+		CD5AC0842022B91500CFC1CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC0822022B91500CFC1CC /* Main.storyboard */; };
+		CD5AC0872022B91500CFC1CC /* DanmuDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC0852022B91500CFC1CC /* DanmuDemo.xcdatamodeld */; };
+		CD5AC0892022B91500CFC1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC0882022B91500CFC1CC /* Assets.xcassets */; };
+		CD5AC08C2022B91500CFC1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5AC08A2022B91500CFC1CC /* LaunchScreen.storyboard */; };
+		CD5AC08F2022B91500CFC1CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC08E2022B91500CFC1CC /* main.m */; };
+		CD5AC0992022B91500CFC1CC /* DanmuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC0982022B91500CFC1CC /* DanmuDemoTests.m */; };
+		CD5AC0A42022B91500CFC1CC /* DanmuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC0A32022B91500CFC1CC /* DanmuDemoUITests.m */; };
+		CD5AC0B32022B93400CFC1CC /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC0B22022B93400CFC1CC /* BulletView.m */; };
+		CD5AC0B62022B94F00CFC1CC /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AC0B52022B94F00CFC1CC /* BulletManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5AC0952022B91500CFC1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5AC0712022B91500CFC1CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5AC0782022B91500CFC1CC;
+			remoteInfo = DanmuDemo;
+		};
+		CD5AC0A02022B91500CFC1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5AC0712022B91500CFC1CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5AC0782022B91500CFC1CC;
+			remoteInfo = DanmuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD5AC0792022B91500CFC1CC /* DanmuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanmuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5AC07C2022B91500CFC1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD5AC07D2022B91500CFC1CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD5AC07F2022B91500CFC1CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD5AC0802022B91500CFC1CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD5AC0832022B91500CFC1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5AC0862022B91500CFC1CC /* DanmuDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DanmuDemo.xcdatamodel; sourceTree = "<group>"; };
+		CD5AC0882022B91500CFC1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5AC08B2022B91500CFC1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5AC08D2022B91500CFC1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5AC08E2022B91500CFC1CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD5AC0942022B91500CFC1CC /* DanmuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanmuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5AC0982022B91500CFC1CC /* DanmuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuDemoTests.m; sourceTree = "<group>"; };
+		CD5AC09A2022B91500CFC1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5AC09F2022B91500CFC1CC /* DanmuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanmuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5AC0A32022B91500CFC1CC /* DanmuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuDemoUITests.m; sourceTree = "<group>"; };
+		CD5AC0A52022B91500CFC1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5AC0B12022B93400CFC1CC /* BulletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
+		CD5AC0B22022B93400CFC1CC /* BulletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
+		CD5AC0B42022B94F00CFC1CC /* BulletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletManager.h; sourceTree = "<group>"; };
+		CD5AC0B52022B94F00CFC1CC /* BulletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5AC0762022B91500CFC1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5AC0912022B91500CFC1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5AC09C2022B91500CFC1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5AC0702022B91500CFC1CC = {
+			isa = PBXGroup;
+			children = (
+				CD5AC07B2022B91500CFC1CC /* DanmuDemo */,
+				CD5AC0972022B91500CFC1CC /* DanmuDemoTests */,
+				CD5AC0A22022B91500CFC1CC /* DanmuDemoUITests */,
+				CD5AC07A2022B91500CFC1CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5AC07A2022B91500CFC1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC0792022B91500CFC1CC /* DanmuDemo.app */,
+				CD5AC0942022B91500CFC1CC /* DanmuDemoTests.xctest */,
+				CD5AC09F2022B91500CFC1CC /* DanmuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5AC07B2022B91500CFC1CC /* DanmuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC07C2022B91500CFC1CC /* AppDelegate.h */,
+				CD5AC07D2022B91500CFC1CC /* AppDelegate.m */,
+				CD5AC07F2022B91500CFC1CC /* ViewController.h */,
+				CD5AC0802022B91500CFC1CC /* ViewController.m */,
+				CD5AC0B12022B93400CFC1CC /* BulletView.h */,
+				CD5AC0B22022B93400CFC1CC /* BulletView.m */,
+				CD5AC0B42022B94F00CFC1CC /* BulletManager.h */,
+				CD5AC0B52022B94F00CFC1CC /* BulletManager.m */,
+				CD5AC0822022B91500CFC1CC /* Main.storyboard */,
+				CD5AC0882022B91500CFC1CC /* Assets.xcassets */,
+				CD5AC08A2022B91500CFC1CC /* LaunchScreen.storyboard */,
+				CD5AC08D2022B91500CFC1CC /* Info.plist */,
+				CD5AC08E2022B91500CFC1CC /* main.m */,
+				CD5AC0852022B91500CFC1CC /* DanmuDemo.xcdatamodeld */,
+			);
+			path = DanmuDemo;
+			sourceTree = "<group>";
+		};
+		CD5AC0972022B91500CFC1CC /* DanmuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC0982022B91500CFC1CC /* DanmuDemoTests.m */,
+				CD5AC09A2022B91500CFC1CC /* Info.plist */,
+			);
+			path = DanmuDemoTests;
+			sourceTree = "<group>";
+		};
+		CD5AC0A22022B91500CFC1CC /* DanmuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AC0A32022B91500CFC1CC /* DanmuDemoUITests.m */,
+				CD5AC0A52022B91500CFC1CC /* Info.plist */,
+			);
+			path = DanmuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5AC0782022B91500CFC1CC /* DanmuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5AC0A82022B91500CFC1CC /* Build configuration list for PBXNativeTarget "DanmuDemo" */;
+			buildPhases = (
+				CD5AC0752022B91500CFC1CC /* Sources */,
+				CD5AC0762022B91500CFC1CC /* Frameworks */,
+				CD5AC0772022B91500CFC1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanmuDemo;
+			productName = DanmuDemo;
+			productReference = CD5AC0792022B91500CFC1CC /* DanmuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5AC0932022B91500CFC1CC /* DanmuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5AC0AB2022B91500CFC1CC /* Build configuration list for PBXNativeTarget "DanmuDemoTests" */;
+			buildPhases = (
+				CD5AC0902022B91500CFC1CC /* Sources */,
+				CD5AC0912022B91500CFC1CC /* Frameworks */,
+				CD5AC0922022B91500CFC1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5AC0962022B91500CFC1CC /* PBXTargetDependency */,
+			);
+			name = DanmuDemoTests;
+			productName = DanmuDemoTests;
+			productReference = CD5AC0942022B91500CFC1CC /* DanmuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5AC09E2022B91500CFC1CC /* DanmuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5AC0AE2022B91500CFC1CC /* Build configuration list for PBXNativeTarget "DanmuDemoUITests" */;
+			buildPhases = (
+				CD5AC09B2022B91500CFC1CC /* Sources */,
+				CD5AC09C2022B91500CFC1CC /* Frameworks */,
+				CD5AC09D2022B91500CFC1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5AC0A12022B91500CFC1CC /* PBXTargetDependency */,
+			);
+			name = DanmuDemoUITests;
+			productName = DanmuDemoUITests;
+			productReference = CD5AC09F2022B91500CFC1CC /* DanmuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5AC0712022B91500CFC1CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LSH;
+				TargetAttributes = {
+					CD5AC0782022B91500CFC1CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD5AC0932022B91500CFC1CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5AC0782022B91500CFC1CC;
+					};
+					CD5AC09E2022B91500CFC1CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5AC0782022B91500CFC1CC;
+					};
+				};
+			};
+			buildConfigurationList = CD5AC0742022B91500CFC1CC /* Build configuration list for PBXProject "DanmuDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5AC0702022B91500CFC1CC;
+			productRefGroup = CD5AC07A2022B91500CFC1CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5AC0782022B91500CFC1CC /* DanmuDemo */,
+				CD5AC0932022B91500CFC1CC /* DanmuDemoTests */,
+				CD5AC09E2022B91500CFC1CC /* DanmuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5AC0772022B91500CFC1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5AC08C2022B91500CFC1CC /* LaunchScreen.storyboard in Resources */,
+				CD5AC0892022B91500CFC1CC /* Assets.xcassets in Resources */,
+				CD5AC0842022B91500CFC1CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5AC0922022B91500CFC1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5AC09D2022B91500CFC1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5AC0752022B91500CFC1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5AC0872022B91500CFC1CC /* DanmuDemo.xcdatamodeld in Sources */,
+				CD5AC0812022B91500CFC1CC /* ViewController.m in Sources */,
+				CD5AC08F2022B91500CFC1CC /* main.m in Sources */,
+				CD5AC0B62022B94F00CFC1CC /* BulletManager.m in Sources */,
+				CD5AC0B32022B93400CFC1CC /* BulletView.m in Sources */,
+				CD5AC07E2022B91500CFC1CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5AC0902022B91500CFC1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5AC0992022B91500CFC1CC /* DanmuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5AC09B2022B91500CFC1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5AC0A42022B91500CFC1CC /* DanmuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5AC0962022B91500CFC1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5AC0782022B91500CFC1CC /* DanmuDemo */;
+			targetProxy = CD5AC0952022B91500CFC1CC /* PBXContainerItemProxy */;
+		};
+		CD5AC0A12022B91500CFC1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5AC0782022B91500CFC1CC /* DanmuDemo */;
+			targetProxy = CD5AC0A02022B91500CFC1CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD5AC0822022B91500CFC1CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5AC0832022B91500CFC1CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5AC08A2022B91500CFC1CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5AC08B2022B91500CFC1CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5AC0A62022B91500CFC1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD5AC0A72022B91500CFC1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5AC0A92022B91500CFC1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = DanmuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.DanmuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD5AC0AA2022B91500CFC1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = DanmuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.DanmuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD5AC0AC2022B91500CFC1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = DanmuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.DanmuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanmuDemo.app/DanmuDemo";
+			};
+			name = Debug;
+		};
+		CD5AC0AD2022B91500CFC1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = DanmuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.DanmuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanmuDemo.app/DanmuDemo";
+			};
+			name = Release;
+		};
+		CD5AC0AF2022B91500CFC1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = DanmuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.DanmuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanmuDemo;
+			};
+			name = Debug;
+		};
+		CD5AC0B02022B91500CFC1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = DanmuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.DanmuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanmuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5AC0742022B91500CFC1CC /* Build configuration list for PBXProject "DanmuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5AC0A62022B91500CFC1CC /* Debug */,
+				CD5AC0A72022B91500CFC1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5AC0A82022B91500CFC1CC /* Build configuration list for PBXNativeTarget "DanmuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5AC0A92022B91500CFC1CC /* Debug */,
+				CD5AC0AA2022B91500CFC1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5AC0AB2022B91500CFC1CC /* Build configuration list for PBXNativeTarget "DanmuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5AC0AC2022B91500CFC1CC /* Debug */,
+				CD5AC0AD2022B91500CFC1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5AC0AE2022B91500CFC1CC /* Build configuration list for PBXNativeTarget "DanmuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5AC0AF2022B91500CFC1CC /* Debug */,
+				CD5AC0B02022B91500CFC1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD5AC0852022B91500CFC1CC /* DanmuDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD5AC0862022B91500CFC1CC /* DanmuDemo.xcdatamodel */,
+			);
+			currentVersion = CD5AC0862022B91500CFC1CC /* DanmuDemo.xcdatamodel */;
+			path = DanmuDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD5AC0712022B91500CFC1CC /* Project object */;
+}
